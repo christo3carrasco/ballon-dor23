@@ -1,7 +1,10 @@
+import { BrowserRouter } from "react-router-dom";
+import { ReactRoutes } from "./routes/ReactRoutes";
+
 export const App = () => {
   return (
-    <>
-      <h1>Ballon dOr 23</h1>
-    </>
+    <BrowserRouter>
+      <ReactRoutes />
+    </BrowserRouter>
   );
 };
