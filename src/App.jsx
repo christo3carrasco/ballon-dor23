@@ -6,6 +6,7 @@ export const App = () => {
   return (
     <BrowserRouter>
       <Header />
+      <br />
       <ReactRoutes />
     </BrowserRouter>
   );

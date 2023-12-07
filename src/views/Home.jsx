@@ -22,11 +22,11 @@ export const Home = () => {
             passion and confidence!
           </CardText>
           <Link to="/nominees">
-            <Button>Vote</Button>
+            <Button color="danger">Vote</Button>
           </Link>
           &nbsp;
           <Link to="/results">
-            <Button>Results</Button>
+            <Button color="warning">Results</Button>
           </Link>
         </CardBody>
       </Card>

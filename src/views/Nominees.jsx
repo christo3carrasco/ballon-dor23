@@ -67,9 +67,9 @@ export const Nominees = () => {
         </Card>
       </CardGroup>
       <br />
-      <Link to="/auth">
+      <Link to="/vote">
         <div className="text-center">
-          <Button>Vote</Button>
+          <Button color="danger">Vote</Button>
         </div>
       </Link>
       <br />
